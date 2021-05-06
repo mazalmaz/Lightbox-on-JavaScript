@@ -1,7 +1,6 @@
 function lightbox() {
     let imgList = document.querySelectorAll(".b-project__slide__item");
-    console.log(imgList);
-
+  
     for (let i = 0; i < imgList.length; i++) {
 
         imgList[i].addEventListener("click", function (event) {
